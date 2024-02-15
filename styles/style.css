@@ -310,3 +310,9 @@
     width: 60%;
     margin: 0 auto;
 }
+
+/* Portfolio Section */
+
+.portfolio-container {
+    position: absolute;
+}
