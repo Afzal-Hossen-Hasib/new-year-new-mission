@@ -10,12 +10,11 @@
 
 /* Banner Section  */
 .banner-container {
-    position: relative;
     background-image: url('../image/Banner\ Image.png');
     width: 100%;
     height: 90vh;
     background-size: 100%;
-    top: 50px;
+    margin-top: 50px;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
@@ -24,9 +23,10 @@
     content: '';
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 0;
+    height: 90vh;
+    top: 50px;
     left: 0;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.55);
 }
 
@@ -51,4 +51,40 @@
 
 .banner-item > h2 {
     font-size: 72px;
+}
+
+/* Categories Section  */
+.categories-container {
+    margin-top: 120px;
+}
+
+.categories-container > h1 {
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 88px;
+    font-weight: bold;
+    padding-bottom: 48px;
+}
+
+.categories-container > h5 {
+    font-size: 24px;
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.categories-container > h2 {
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+
+.new-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
