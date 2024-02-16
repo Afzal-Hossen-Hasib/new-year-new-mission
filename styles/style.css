@@ -412,3 +412,88 @@
     border: none;
     font-family: "Inter", sans-serif;
 }
+
+/* Footer Section  */
+
+footer {
+    margin-top: 200px;
+    background-color: black;
+}
+
+.footer-content {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding-top: 120px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.mobile, .web {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.mobile {
+    padding-bottom: 15px;
+}
+
+.mobile h4 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.web img {
+    padding-right: 20px;
+}
+
+.web h4 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-content > h4 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    line-height: 2;
+}
+
+.horizontal {
+    border-top: 1px solid lightgray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.icon-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.right {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 100px;
+}
+
+.right > h4 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.right > h3 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
