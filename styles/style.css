@@ -314,5 +314,48 @@
 /* Portfolio Section */
 
 .portfolio-container {
-    position: absolute;
+    margin-top: 170px;
+}
+
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    align-items: center;
+    padding: 50px;
+}
+
+.product-pic1 {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.product-pic1 img {
+    width: 100%;
+    transition: all 1.5s ease;
+    border-radius: 20px;
+}
+
+.product-pic1:hover img{
+    transform: scale(1.2);
+    border-radius: 20px;
+}
+
+.portfolio-container > h1 {
+    font-size: 48px;
+    padding-bottom: 48px;
+}
+
+.portfolio-container > h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: #FF0000;
+    padding-bottom: 16px;
+}
+
+.portfolio-container > p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+    width: 55%;
 }
