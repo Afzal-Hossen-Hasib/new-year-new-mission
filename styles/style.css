@@ -359,3 +359,56 @@
     padding-bottom: 50px;
     width: 55%;
 }
+
+/* Subscribe Section  */
+.sub-container {
+    margin-top: 200px;
+}
+
+.sub-pic {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding-bottom: 40px;
+}
+
+.sub-container h1 {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+.sub-container p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sub-input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-input input {
+    width: 400px;
+    padding: 18px 10px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    background-color: lightgray;
+    opacity: 0.7;
+}
+
+.sub-btn {
+    padding: 15px 30px;
+    border-radius: 0 50px 50px 0;
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    border: none;
+    font-family: "Inter", sans-serif;
+}
